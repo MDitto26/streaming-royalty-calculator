@@ -206,136 +206,67 @@ button:hover {
   }
 }
 
-  /* Base styles for all devices */
-
-  /* Styles for small devices (phones) */
-  @media only screen and (max-width: 767px) {
-    body {
-      font-size: 16px;
-    }
-    h1 {
-      font-size: 24px;
-      margin-bottom: 30px;
-    }
-    img {
-      margin-top: 30px;
-      max-width: 50%;
-    }
-    #form-container {
-      margin-top: 30px;
-    }
-    #release-form input[type="text"],
-    #release-form input[type="date"] {
-      margin-bottom: 20px;
-    }
-    #release-form input[type="submit"] {
-      margin-bottom: 30px;
-      font-size: 20px;
-    }
-    #planner-container {
-      margin-top: 30px;
-    }
-    table {
-      font-size: 14px;
-    }
-    th,
-    td {
-      padding: 8px;
-    }
-    .learn-how {
-      font-size: 14px;
-    }
-    button {
-      margin: 30px 10px;
-      font-size: 14px;
-      padding: 10px 20px;
-    }
-
-  /* Styles for medium devices (tablets) */
-  @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    body {
-      font-size: 18px;
-    }
-    h1 {
-      font-size: 36px;
-      margin-bottom: 40px;
-    }
-    img {
-      margin-top: 40px;
-      max-width: 40%;
-    }
-    #form-container {
-      margin-top: 40px;
-    }
-    #release-form input[type="text"],
-    #release-form input[type="date"] {
-      margin-bottom: 30px;
-    }
-    #release-form input[type="submit"] {
-      margin-bottom: 40px;
-      font-size: 24px;
-    }
-    #planner-container {
-      margin-top: 40px;
-    }
-    table {
-      font-size: 16px;
-    }
-    th,
-    td {
-      padding: 10px;
-    }
-    .learn-how {
-      font-size: 16px;
-    }
-    button {
-      margin: 40px 20px;
-      font-size: 16px;
-      padding: 12px 24px;
-    }
+@media only screen and (max-width: 767px) {
+  img {
+    max-width: 100%;
+    height: auto;
   }
 
-  /* Styles for large devices (desktops) */
-  @media only screen and (min-width: 1024px) {
-    body {
-      font-size: 20px;
-    }
-    h1 {
-      font-size: 48px;
-      margin-bottom: 50px;
-    }
-    img {
-      margin-top: 50px;
-      max-width: 30%;
-    }
-    #form-container {
-      margin-top: 50px;
-    }
-    #release-form input[type="text"],
-    #release-form input[type="date"] {
-      margin-bottom: 60px;
-    }
-    #release-form input[type="submit"] {
-      margin-bottom: 50px;
-      font-size: 25px;
-    }
-    #planner-container {
-      margin-top: 50px;
-    }
-    table {
-      font-size: 18px;
-    }
-    th,
-    td {
-      padding: 12px;
-    }
-    .learn-how {
-      font-size: 18px;
-    }
-    button {
-      margin: 50px;
-      font-size: 18px;
-      padding: 14px 28px;
+  h1 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  #form-container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  #release-form label {
+    font-size: 1rem;
+  }
+
+  #release-form input[type="date"],
+  #release-form input[type="text"] {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+
+  #release-form input[type="submit"] {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+  }
+
+  #planner-container {
+    margin-top: 2rem;
+  }
+
+  table {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  th,
+  td {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  button {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
   }
 }
 
